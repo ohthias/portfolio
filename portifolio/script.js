@@ -1,1 +1,0 @@
-const about_me_section = document.getElementByClass("about-me")
