@@ -5,7 +5,7 @@ export const projetos = [
       "Spring Boot",
       "SQL",
       "JavaScript",
-      "EJ6",
+      "ES6",
       "HTML",
       "CSS",
       "API do Spotify",
