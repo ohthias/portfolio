@@ -9,7 +9,7 @@ export default function Certifications() {
     return (
         <div className="flex flex-col items-start justify-center gap-8 mt-8">
             <h2 className="font-bold text-3xl">Certificações</h2>
-            <section className="flex flex-row gap-10 w-full">
+            <section className="grid grid-cols-3 gap-8 md:grid-cols-4 lg:grid-cols-5">
                 <CardCertification
                     src={MOSIcon}
                     alt="Microsoft Office Specialist: Excel Associate (Office 2019)"

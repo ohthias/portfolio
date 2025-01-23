@@ -24,11 +24,11 @@ function CardProjects({ projeto }: ProjetoCardProps) {
             rel="noopener noreferrer"
             className="block hover:opacity-90 transition w-max"
         >
-            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-full w-80">
+            <div className="bg-gray-200 p-4 rounded-lg shadow-md h-full max-w-md sm:w-80">
                 <Image
                     src={projeto.imagem.url}
                     alt={projeto.imagem.alt}
-                    className="h-48 rounded-lg mb-4 object-cover"
+                    className="h-65 sm:h-48 rounded-lg mb-4 object-cover"
                     aria-label={projeto.imagem.alt}
                 />
                 <h3 className="text-xl font-bold mb-2">{projeto.NomeProjeto}</h3>
