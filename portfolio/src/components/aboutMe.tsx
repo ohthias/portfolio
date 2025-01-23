@@ -4,7 +4,7 @@ import MK from "../app/assets/images/MakerZone.jpeg";
 import TCC from "../app/assets/images/TCC.jpeg";
 
 export default function AboutMe() {
-  let width = 400;
+  const width = 400;
 
   return (
     <section className="flex flex-col items-center justify-center w-full gap-8 md:justify-items-center md:items-center lg:flex-row lg:justify-between lg:items-stretch">
